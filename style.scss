@@ -1,0 +1,274 @@
+*,*::before,*::after{
+    box-sizing: border-box;
+}
+
+    @import "./navbar/navbar";
+
+.nav_list{
+    justify-content: space-between;
+    display: flex;
+    .nav_link{
+        text-decoration: none;
+        margin-left: 30px;
+        transition: .65s;
+        color: black;
+    }
+    .nav_link:hover{
+        color: orangered;
+    }
+}
+
+header{
+    background: linear-gradient(90deg, #f07c4b73 1.14%, rgba(238, 85, 20, 0) 70.88%);
+}
+
+h1{
+    padding-top: 50px;
+    font-size: 61px;
+    width: 45%;
+}
+
+p{
+    font-size: 16px;
+    color: #1A0A03;
+    width: 60%;
+}
+
+.div2{
+    img{
+        animation-name: Rotation;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+        
+        animation-direction: alternate;
+    }
+    
+    @keyframes Rotation{
+        from{
+           transform: translateX(200px) scale();
+        }
+    
+        to{
+           transform: translate(100px);
+        }
+    }
+}
+
+.nav_link1{
+    text-decoration: none;
+    margin-bottom: 50px;
+}
+
+.nav_list1{
+    display: flex;
+    margin-top: -40px;
+
+}
+
+.nav_list2{
+    display: flex;
+}
+
+.nav_p1{
+    margin: 0 30px;
+}
+
+.nav_h3{
+    margin: 0 30px;
+    margin-top: -45px;
+}
+
+.img4{
+    margin-left: 10px;
+}
+
+.img6{
+    margin-left: 10px;
+}
+
+.nav_list3{
+    margin-top: -300px;
+}
+
+.section{
+    background-color:#fff;
+    width: 50%;
+    height: 100%;
+    margin-left: 100px;
+    margin-top: -30px;
+}
+
+.section1{
+    padding-top: 10%;
+    h1{
+        width: 80%;
+    }
+    p{
+        width: 45%;
+        padding-top: 10px;
+    }
+}
+
+
+.section2{
+    padding-top: 5%;
+    .p1{
+        padding-top: 30px;
+        text-align: center;
+        color: orangered;
+    }
+}
+
+.card{
+    transition: .65s;
+    padding-bottom: 50px;
+    h5{
+        text-align: center;
+    }
+    p{
+        text-align: center;
+        width: 100%;
+        padding-top: 10px;
+    }
+    .div_vector{
+       text-align: center;
+    }
+    a{
+        text-decoration: none;
+
+    }
+}
+
+.card:hover{
+    background: #f6e0d7;;
+}
+
+.section3{
+    padding-top: 20px;
+    .p2{
+        padding-top: 30px;
+        color: orangered;
+    }
+    .nav_list1{
+        display: flex;
+    }
+    .link1{
+        margin-left: 40px;
+        text-decoration: none;
+        color: #1A0A03;
+    }
+    .div5{
+        margin-left: 55%;
+        .img_1{
+            margin-right:20px;
+        }
+        .img_2{
+            margin-left:20px ;
+            
+        }
+    }
+}
+.link1:hover{
+    color: orangered;
+    border-bottom: 1px solid orangered;
+}
+
+.section4{
+    .h2{
+        padding-top: 5%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .div7{
+        margin-left: 15%;
+        
+    }
+    .div8{
+        margin-left: 20%;
+        .img_3{
+            margin-right:20px;
+        }
+        .img_4{
+            margin-left:20px ;
+            
+        }
+    }
+    .div9{
+        img{
+            padding-top: 30px;
+        }
+        h3{
+            width: 1000%;
+            padding-top: 10px;
+        }
+        .p1{
+            width: 120%;
+            font-family: 'Poppins';
+            font-style: italic;
+        }
+        h4{
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: bolder;
+            padding-top: 10px;
+        }
+        
+    }
+}
+
+.section5{
+    padding-top: 10%;
+    .container{
+        background: linear-gradient(90deg, hsl(0, 0%, 100%) 1.14%, rgba(152, 190, 234, 0.405) 70.88%);
+    }
+   h2{
+       width: 100%;
+       padding-top: 10%;
+   }
+   p{
+       padding-top: 10px;
+   }
+   
+}
+
+.section6{
+    padding-top: 5%;
+    ul{
+        justify-content: space-between;
+    }
+    
+    p{
+        padding-top: 10px;
+    }
+    .section6_item1{
+       .img2{
+           padding-left: 10px;
+       }
+    }
+    .section6_item2{
+        p{
+            width: 100%;
+            margin: 5px;
+        }
+    }
+    .section6_item3{
+        p{
+            width: 100%;
+            margin: 5px;
+        }
+    }
+    .section6_item4{
+       p{
+        padding-top: 10px;
+       }
+    }
+}
+
+.footer{
+    p{
+        text-align: center;
+        padding-top: 10px;
+        font-family: 'Poppins';
+    }
+}
